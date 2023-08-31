@@ -15,17 +15,21 @@ public class Texteditor_learning {
         JFrame windowFrame = new JFrame("LibreEditor");
         windowFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windowFrame.setLocationRelativeTo(null);
-        windowFrame.pack();
-        windowFrame.setVisible(true);
-        windowFrame.setSize(new Dimension(800, 600));
+        
         // Text Edit Area
         JTextArea textZone = new JTextArea();
         textZone.setPreferredSize(new Dimension(800,800));
-        windowFrame.getContentPane().add(textZone, BorderLayout.CENTER);
+        windowFrame.add(textZone, BorderLayout.CENTER);
         // Menubar
         
         //Tool bar
         
+        // Input Controls + Saving File Mechanics
+        
+        // Pack
+        windowFrame.pack();
+        windowFrame.setSize(new Dimension(800, 600));
+        windowFrame.setVisible(true);
     }
     
 }
