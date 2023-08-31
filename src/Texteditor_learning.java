@@ -1,14 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
+// Licensed under GPL v3
+// author is Kyle Stevenson (also known as Cortex2004 on Github)
 package kylestevenson.texteditor_learning;
 import java.awt.*;
 import javax.swing.*;
-/**
- *
- * @author Kyle Stevenson
- */
+
 public class Texteditor_learning {
 
     public static void main(String[] args) {
@@ -22,10 +17,11 @@ public class Texteditor_learning {
         windowFrame.setLocationRelativeTo(null);
         windowFrame.pack();
         windowFrame.setVisible(true);
-        // Text Edit
-        JTextField textZone = new JTextField("", SwingConstants.TOP);
-        textZone.setPreferredSize(new Dimension(300,300));
-        windowFrame.getContentPane().add(textZone, BorderLayout.NORTH);
+        windowFrame.setSize(new Dimension(800, 600));
+        // Text Edit Area
+        JTextArea textZone = new JTextArea();
+        textZone.setPreferredSize(new Dimension(800,800));
+        windowFrame.getContentPane().add(textZone, BorderLayout.CENTER);
         // Menubar
         
         //Tool bar
