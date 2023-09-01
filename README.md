@@ -6,6 +6,7 @@ Planned:
 + Text file support(opening/editing/saving)
 + Various Menus on the tool bar
 + Editable Text area where you type or read a text file
++ Need to add the ability to scroll down.
 
 Implemented:
 + Editable Text Area
