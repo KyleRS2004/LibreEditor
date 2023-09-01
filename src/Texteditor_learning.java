@@ -1,5 +1,5 @@
 // Licensed under GPL v3
-// author is Kyle Stevenson (also known as Cortex2004 on Github)
+// author is Kyle Stevenson (also known as KyleRS2004 on Github)
 package kylestevenson.texteditor_learning;
 import java.awt.*;
 import javax.swing.*;
