@@ -10,4 +10,3 @@ Implemented:
 + Editable Text Area
 + Menu bar & items (still need to make the menus for the items, such as the File Menu)
 
-![alt text](https://www.dropbox.com/scl/fi/wgfh5pw09qmpo503cv4i1/Screenshot-59.png?rlkey=93epys3jpsxjbrqex88b2b1ft&dl=1)
