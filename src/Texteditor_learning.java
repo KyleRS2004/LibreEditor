@@ -22,7 +22,7 @@ public class Texteditor_learning {
         textZone.setPreferredSize(new Dimension(800,800));
         windowFrame.add(textZone, BorderLayout.CENTER);
         
-        // Menu Popouts
+        // Menu Bar Items
         JMenu fileMenu = new JMenu("File");
         JMenu editMenu = new JMenu("Edit");
         JMenu viewMenu = new JMenu("View");
