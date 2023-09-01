@@ -6,6 +6,7 @@ import javax.swing.*;
 
 public class Texteditor_learning {
 
+
     public static void main(String[] args) {
         windowCreate();
     }
@@ -20,8 +21,24 @@ public class Texteditor_learning {
         JTextArea textZone = new JTextArea();
         textZone.setPreferredSize(new Dimension(800,800));
         windowFrame.add(textZone, BorderLayout.CENTER);
-        // Menubar
         
+        // Menu Popouts
+        JMenu fileMenu = new JMenu("File");
+        JMenu editMenu = new JMenu("Edit");
+        JMenu viewMenu = new JMenu("View");
+        JMenu helpMenu = new JMenu("Help");
+        // Menubar
+        JMenuBar menuBar = new JMenuBar ();
+        menuBar.setPreferredSize(new Dimension(50,25));
+        windowFrame.add(menuBar,BorderLayout.NORTH);
+            //File Menu Bar
+        menuBar.add(fileMenu,BorderLayout.LINE_START);
+            //Edit Menu Bar
+        menuBar.add(editMenu,BorderLayout.LINE_START);
+            //View Menu Bar
+        menuBar.add(viewMenu,BorderLayout.LINE_START);
+            //Help Menu Bar
+        menuBar.add(helpMenu,BorderLayout.LINE_START);
         //Tool bar
         
         // Input Controls + Saving File Mechanics
