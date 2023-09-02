@@ -1,5 +1,5 @@
 # LibreEditor
-A free java based text editor that I am using to learn Java.  Hopefully I don't abandon it like my other projects.
+A free java based text editor that I am using to learn Java.
 The "pom.xml" file is the project file for Netbeans IDE.
 
 Planned:
