@@ -12,4 +12,4 @@ Implemented:
 + Editable Text Area
 + Menu bar & items (still need to make the menus for the items, such as the File Menu)
 
-![alt text](https://github.com/KyleRS2004/LibreEditor/blob/main/Screenshot%20(59).png)
+![alt text](https://github.com/KyleRS2004/LibreEditor/blob/main/Screenshot%20(60).png)
