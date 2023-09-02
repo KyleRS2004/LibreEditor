@@ -11,5 +11,6 @@ Planned:
 Implemented:
 + Editable Text Area
 + Menu bar & items (still need to make the menus for the items, such as the File Menu)
++ Scroll bar
 
 ![alt text](https://github.com/KyleRS2004/LibreEditor/blob/main/Screenshot%20(60).png)
