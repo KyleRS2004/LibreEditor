@@ -17,16 +17,24 @@ public class Texteditor_learning {
         windowFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         windowFrame.setLocationRelativeTo(null);
         
+        // Scroll Bar
+        ScrollPane scrollPane = new ScrollPane();
+        windowFrame.add(scrollPane, BorderLayout.CENTER);
+        
         // Text Edit Area
         JTextArea textZone = new JTextArea();
         textZone.setPreferredSize(new Dimension(800,800));
-        windowFrame.add(textZone, BorderLayout.CENTER);
+        scrollPane.add(textZone,BorderLayout.WEST);
         
         // Menu Bar Items
         JMenu fileMenu = new JMenu("File");
         JMenu editMenu = new JMenu("Edit");
         JMenu viewMenu = new JMenu("View");
         JMenu helpMenu = new JMenu("Help");
+        
+        // Popup Menu Bar Menus
+        
+        
         // Menubar
         JMenuBar menuBar = new JMenuBar ();
         menuBar.setPreferredSize(new Dimension(50,25));
@@ -40,8 +48,6 @@ public class Texteditor_learning {
             //Help Menu Bar
         menuBar.add(helpMenu,BorderLayout.LINE_START);
         //Tool bar
-        
-        // Input Controls + Saving File Mechanics
         
         // Pack
         windowFrame.pack();
