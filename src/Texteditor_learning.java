@@ -34,6 +34,10 @@ public class Texteditor_learning {
         JMenu viewMenu = new JMenu("View");
         JMenu helpMenu = new JMenu("Help");
         
+        // File Submenu
+        JMenu f_OpenMenu = new JMenu("Open");
+        fileMenu.add(f_OpenMenu);
+        
         
         // Menubar
         JMenuBar menuBar = new JMenuBar ();
@@ -48,13 +52,6 @@ public class Texteditor_learning {
             //Help Menu Bar
         menuBar.add(helpMenu,BorderLayout.LINE_START);
         
-        // Popup Menu Bar Menus
-        JPopupMenu  filePopup = new JPopupMenu();
-        JPopupMenu  editPopup = new JPopupMenu();
-        JPopupMenu  viewPopup = new JPopupMenu();
-        JPopupMenu  helpPopup = new JPopupMenu();
-        filePopup.setPreferredSize(new Dimension(50,100));
-        menuBar.add(filePopup);
         
         
         //Tool bar
