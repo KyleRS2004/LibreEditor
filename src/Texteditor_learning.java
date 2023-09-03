@@ -4,11 +4,13 @@ package kylestevenson.texteditor_learning;
 import java.awt.*;
 import javax.swing.*;
 
-public class Texteditor_learning {
-
-
+public class Texteditor_learning {  
+    
     public static void main(String[] args) {
         windowCreate();
+        
+        
+        
     }
     
     public static void windowCreate() {
@@ -32,8 +34,6 @@ public class Texteditor_learning {
         JMenu viewMenu = new JMenu("View");
         JMenu helpMenu = new JMenu("Help");
         
-        // Popup Menu Bar Menus
-        
         
         // Menubar
         JMenuBar menuBar = new JMenuBar ();
@@ -47,6 +47,16 @@ public class Texteditor_learning {
         menuBar.add(viewMenu,BorderLayout.LINE_START);
             //Help Menu Bar
         menuBar.add(helpMenu,BorderLayout.LINE_START);
+        
+        // Popup Menu Bar Menus
+        JPopupMenu  filePopup = new JPopupMenu();
+        JPopupMenu  editPopup = new JPopupMenu();
+        JPopupMenu  viewPopup = new JPopupMenu();
+        JPopupMenu  helpPopup = new JPopupMenu();
+        filePopup.setPreferredSize(new Dimension(50,100));
+        menuBar.add(filePopup);
+        
+        
         //Tool bar
         
         // Pack
