@@ -13,4 +13,4 @@ Implemented:
 + Menu bar, Menu bar items, and Menus for the menu bar items(file menu, edit menu, and help menu).
 + Scroll bar
 
-![alt text](https://github.com/KyleRS2004/LibreEditor/blob/main/Screenshot%20(60).png)
+![alt text]()
