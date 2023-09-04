@@ -1,5 +1,5 @@
 # LibreEditor
-A free java based text editor that I am using to learn Java.
+LibreEditor is free and open source text editor that I am writing Java. I am currently learning Java so its technically a learning project.  Still I want the project to be useful for anyone that wants an open source replacement for Notepad on window or on any system that supports Java(in particular I am using the Swing library.)
 The "pom.xml" file is the project file for Netbeans IDE.
 
 Planned:
