@@ -1,0 +1,3 @@
+To contribute to the editor, you must document _exactly_ how an what the change you wish to implement works.  This means that you must in detail give a broad overview of what the code is for and well document the actual code itself.  From there I will look it over and see if I can anyone else experienced to look it over and see if I am missing anything risky.
+If everything looks fine and the code is needed(such as a patch to some bug or a feature that would improve the program), then your contribution will likely be implemented.
+Also, one more thing, your contributed code must be licensed under GPL v3 to be included into LibreEditor.
