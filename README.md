@@ -3,7 +3,7 @@ LibreEditor is free and open source text editor that I am writing Java. I am cur
 The "pom.xml" file is the project file for Netbeans IDE.
 
 Minor update: 09/06/2023
-I am focusing on college going forward, so I am leaving my current job(its nothing programming related).  So till the end of the week I am going to put the project on pause, but starting on this coming weekend I will continue.  That also maybe how I go about updating/working on the project(weekends only).
+I am focusing on college going forward, so I am leaving my current job(its nothing programming related) very soon.  So till the end of the week I am going to put the project on pause, but starting on this coming weekend I will continue.  That also maybe how I go about updating/working on the project(weekends only).
 
 
 Planned:
